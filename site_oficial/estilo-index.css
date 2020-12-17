@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: white;*/
+}
+
+/*MENU SUPERIOR*/
+
+header{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.cabecalho{
+    display:flex;
+    height:80px;    
+    align-items: center;
+    border-bottom: solid 1px grey;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.cabecalho img{
+    height:60%;    
+}
+
+.cabecalho .menu{
+    display:flex;    
+    margin: 0 auto;    
+}
+
+.cabecalho .botoes-menu{
+    display:flex;
+    margin-left:10px;    
+    border-bottom: solid 1px GREY;    
+    text-align:center;
+    width:10vw;  
+    font-size:18px;
+}
+
+.botoes-menu a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color:inherit;    
+}
+
+.cabecalho a p{
+    margin: 0 auto;
+    
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* SUB MENU*/
+.sub-menu{
+    display:flex;
+    width:100%;    
+    height:50px;
+    align-items: center;
+    background-color:#00aeea;
+    border-bottom: solid 1px GREY;    
+}
+
+.sub-menu form{
+    display:inline-block;
+    margin: 0 auto;
+    width: 80%;    
+}
+
+.sub-menu input{
+    width:100%;
+    height:30px;
+    background: white; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+/* RODAPÉ */
+footer{
+    padding-top: 20px;
+    padding-left:3%;
+    padding-right:3%;    
+    
+    
+    font-family: 'Titillium Web', sans-serif;    
+    background-color:black;
+}
+.saiba-mais{
+    display:flex;
+    align-items: top;    
+}
+
+.sobre-o-neu,.outros-links,.contato-localizacao,.newsletter{
+    width:23vw;
+    display:inline-block;
+    color:white;
+    height:100%;
+}
+
+.sobre-o-neu, .newsletter, .contato-localizacao{
+    text-align: center;
+}
+
+.outros-links{
+    padding-left: 7%;
+}
+
+.outros-links ol{
+    list-style-type: none;
+}
+
+.outros-links a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.newsletter input,label, button{    
+    margin-top: 10px;
+    display:inline-block;
+    width: 80%;
+    height:23px;
+    font-size: 16px;;
+}
+
+.newsletter button{
+    margin-top:20px;
+    width:82%;
+    height:32px;
+}
+
+.newsletter h5{
+    font-size: 20px;
+}
+
+
+.rodape{
+    
+    color:white;
+    margin-top:20px;
+    padding:14px 0;
+    font-size:12px;
+    text-align: center;
+}
+
+/*RAFAELA*/
+
+.neutube{    
+    background-color: #12a2da;
+    height: 10cm;
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;        
+
+}
+.quadrado{
+    background-color: #12a2da;
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    height: 5cm;
+    width: 850px;
+    margin: auto;
+    margin-top: 2cm;
+}
+
+.textoquadrado{
+    background-color: #12a2da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quadrado h1{
+    font-size: 72px;
+    background-color: #12a2da; 
+    color: white;
+}
+
+.quadrado p{
+    font-size: 30px;
+    background-color: #12a2da; 
+    color: white;
+}
+
+.Imagens{
+    display: flex;
+}
+
+.Intro .jovens{
+    display: flex;
+    margin-left: 0 px;
+}
+
+.Intro .jovenstexto{
+    display: flex;
+    margin-left: 70px;
+    font-size: 76px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.Intro{
+    display: flex;
+}
+
+.startup{
+    display: flex;
+    margin-left: 0 px;
+}
+
+.startexto{
+    display: flex;
+    margin-left: 70px;
+    font-size: 70px;
+    width: 600px;
+    margin-top: 50px;
+    line-height: 150px;
+}
+
+.startimagem {
+    margin-right: 0px;
+}
+
+.quebra{
+    background-color: #e4e4e4;
+    height: 5cm;
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+}
+
+
+.neutube2{    
+    background-color:  #e4e4e4;
+    height: 4cm;
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.quadrado2{
+    background-color: #e4e4e4;
+    border-color: black;
+    border-width: 2.5px;
+    border-style: solid;
+    height: 2.5cm;
+    width: 500px;
+    margin: auto;
+    margin-top: 0.4cm;
+}
+
+.textoquadrado2{
+    background-color:  #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.1cm;
+}
+
+.quadrado2 h1{
+    font-size: 30px;
+    background-color:  #e4e4e4; 
+    color: black;
+}
+
+.empresa img {
+    max-width: 100%;
+    display: block;
+    max-height: 400px;
+}
+
+.empresa {
+    margin-top: 5px;
+    height: 300px;
+    margin-left: 1.5cm;  
+}
+
+
+.imagem1{
+    position: absolute;    
+    width: 273px;
+    height: 181px;
+    left: 225;    
+}
+
+.imagem2{
+    position: absolute;    
+    width: 175px;
+    height: 158x;
+    left: 450px;
+}
+
+.imagem3{
+    position: absolute;    
+    width: 163px;
+    height: 181px;
+    left: 753px;
+        
+}
+
+.imagem4{
+    position: absolute;    
+    width: 344px;
+    height: 154px ; 
+    left: 1000px;
+}
+    
+
+
+
+
+
+
+
